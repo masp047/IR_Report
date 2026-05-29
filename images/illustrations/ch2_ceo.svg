@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+<rect width="800" height="600" fill="#EEF3FC"/>
+<!-- 中央の円形プレート(人物のフレーム) -->
+<circle cx="400" cy="300" r="170" fill="white" stroke="#1E3A8A" stroke-width="3"/>
+<circle cx="400" cy="300" r="155" fill="none" stroke="#B8924F" stroke-width="1.5" stroke-dasharray="3 4"/>
+<!-- 人物シルエット -->
+<g transform="translate(400,330)">
+  <!-- 頭 -->
+  <circle cx="0" cy="-50" r="38" fill="#1E3A8A"/>
+  <!-- 肩・胴(円内に収まる) -->
+  <path d="M-78,90 Q-78,15 -42,-2 L42,-2 Q78,15 78,90 Z" fill="#1E3A8A"/>
+  <!-- 襟元(白) -->
+  <path d="M-15,-2 L0,15 L15,-2 Z" fill="white"/>
+  <!-- ネクタイ(ゴールド) -->
+  <path d="M-5,-2 L5,-2 L8,30 L-3,55 L-8,30 Z" fill="#B8924F"/>
+</g>
+<!-- 大きな引用符 -->
+<text x="120" y="220" font-family="Georgia, serif" font-size="220" font-weight="700" fill="#4169E1" opacity="0.65">"</text>
+<text x="560" y="500" font-family="Georgia, serif" font-size="220" font-weight="700" fill="#1E3A8A" opacity="0.65">"</text>
+<!-- 装飾ライン(対話のリズム) -->
+<g stroke="#4169E1" stroke-width="2" fill="none" opacity="0.4">
+  <path d="M80,500 Q140,485 200,500 T320,500"/>
+  <path d="M480,500 Q540,485 600,500 T720,500"/>
+</g>
+<!-- 小さなドット -->
+<g fill="#B8924F" opacity="0.7">
+  <circle cx="150" cy="120" r="4"/>
+  <circle cx="660" cy="130" r="4"/>
+  <circle cx="170" cy="450" r="3"/>
+  <circle cx="640" cy="450" r="3"/>
+</g>
+</svg>

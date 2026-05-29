@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice"><rect width="800" height="600" fill="#EEF3FC"/>
+<defs>
+  <linearGradient id="waterO" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4169E1" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0.7"/>
+  </linearGradient>
+</defs>
+<!-- 空 -->
+<rect width="800" height="350" fill="#93B4F0" opacity="0.2"/>
+<!-- 運河の水 -->
+<rect x="0" y="350" width="800" height="250" fill="url(#waterO)"/>
+<!-- 倉庫群(レンガ風) -->
+<g transform="translate(80,180)">
+  <!-- 倉庫1 -->
+  <rect x="0" y="0" width="180" height="170" fill="#8B5A3C"/>
+  <rect x="0" y="0" width="180" height="20" fill="#1E3A8A"/>
+  <polygon points="0,0 90,-30 180,0" fill="#1E3A8A"/>
+  <!-- アーチ窓 -->
+  <path d="M30,50 Q30,30 50,30 L70,30 Q90,30 90,50 L90,90 L30,90 Z" fill="#B8924F" opacity="0.7" stroke="#1E3A8A" stroke-width="2"/>
+  <path d="M110,50 Q110,30 130,30 L150,30 Q170,30 170,50 L170,90 L110,90 Z" fill="#B8924F" opacity="0.7" stroke="#1E3A8A" stroke-width="2"/>
+  <rect x="30" y="110" width="60" height="50" fill="#1E3A8A"/>
+  <rect x="110" y="110" width="60" height="50" fill="#1E3A8A"/>
+</g>
+<g transform="translate(290,200)">
+  <!-- 倉庫2(高め) -->
+  <rect x="0" y="0" width="200" height="150" fill="#6B4226"/>
+  <rect x="0" y="0" width="200" height="18" fill="#1E3A8A"/>
+  <polygon points="0,0 100,-25 200,0" fill="#1E3A8A"/>
+  <path d="M30,40 Q30,20 50,20 L70,20 Q90,20 90,40 L90,80 L30,80 Z" fill="#B8924F" opacity="0.8" stroke="#1E3A8A" stroke-width="2"/>
+  <path d="M110,40 Q110,20 130,20 L150,20 Q170,20 170,40 L170,80 L110,80 Z" fill="#B8924F" opacity="0.8" stroke="#1E3A8A" stroke-width="2"/>
+  <rect x="60" y="100" width="80" height="50" fill="#1E3A8A"/>
+</g>
+<g transform="translate(520,210)">
+  <!-- 倉庫3 -->
+  <rect x="0" y="0" width="160" height="140" fill="#8B5A3C"/>
+  <rect x="0" y="0" width="160" height="16" fill="#1E3A8A"/>
+  <polygon points="0,0 80,-22 160,0" fill="#1E3A8A"/>
+  <path d="M30,35 Q30,18 48,18 L62,18 Q80,18 80,35 L80,70 L30,70 Z" fill="#B8924F" opacity="0.7" stroke="#1E3A8A" stroke-width="2"/>
+  <path d="M100,35 Q100,18 118,18 L132,18 Q150,18 150,35 L150,70 L100,70 Z" fill="#B8924F" opacity="0.7" stroke="#1E3A8A" stroke-width="2"/>
+</g>
+<!-- 水面の反射(逆さの倉庫を薄く) -->
+<g opacity="0.18">
+  <rect x="80" y="380" width="180" height="120" fill="#8B5A3C"/>
+  <rect x="290" y="380" width="200" height="110" fill="#6B4226"/>
+  <rect x="520" y="380" width="160" height="100" fill="#8B5A3C"/>
+</g>
+<!-- 水面の波 -->
+<g stroke="white" stroke-width="1.5" fill="none" opacity="0.5">
+  <path d="M0,410 Q200,420 400,410 T800,410"/>
+  <path d="M0,450 Q200,460 400,450 T800,450"/>
+  <path d="M0,490 Q200,500 400,490 T800,490"/>
+</g>
+</svg>
